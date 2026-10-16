@@ -1,0 +1,11 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "google/gemini-2.5-flash", 
+  "providers": {
+    "google": {
+      "settings": {
+        "apiKey": "{env:AIzaSyBTwsxzoMBCr5MBPa2ZJ8lVzj_XrimWFgU}"
+      }
+    }
+  }
+}

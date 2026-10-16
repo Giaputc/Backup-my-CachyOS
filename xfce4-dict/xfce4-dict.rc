@@ -1,0 +1,23 @@
+mode_in_use=0
+mode_default=3
+show_panel_entry=false
+panel_entry_size=20
+port=2628
+server=dict.org
+dict=*
+spell_bin=/usr/bin/enchant-2
+spell_dictionary=en_US
+link_color=rgb(0,0,255)
+phonetic_color=rgb(0,99,0)
+error_color=rgb(128,0,0)
+success_color=rgb(16,112,0)
+geometry=665;354;580;360;0;
+speedreader_font=Sans 32
+speedreader_wpm=400
+speedreader_grouping=1
+speedreader_mark_paragraphs=false
+llm_server=localhost
+llm_port=11434
+llm_model=gemma3:4b
+llm_prompt=Pretend you're a dictionary, I'll ask you to define a term or expression, try to compose a message that resembles a dictionary entry. Do NOT add anything to the message, before or after it, for example, do NOT prepend 'Okay' or 'Understood'. Do NOT format the answers with markdown or html, write in plain text. You can use multiple lines. Try to be concise. Define the word: %s
+
